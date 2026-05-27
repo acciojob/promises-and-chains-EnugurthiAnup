@@ -9,7 +9,7 @@ btn.addEventListener("click", function (event) {
 
   // validation
   if (age.value.trim() === "" || name.value.trim() === "") {
-    alert("Please enter valid details.");
+    alert("Please enter valid details");
     return;
   }
 
